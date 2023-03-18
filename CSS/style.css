@@ -119,7 +119,7 @@ a {
     justify-content: center;
     text-align: center;
     font: normal normal normal 36px/42px var(--font-raleway);
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: var(--color-black);
     opacity: 1;
     padding-top: 100px;
@@ -161,7 +161,7 @@ a {
     background-color: var(--color-green);
     position: relative;
     display: flex;
-    align-items: center;1
+    justify-content: center;
 }
 .stats__box:first-child .stats__circle {
     background-color: var(--color-redish);
