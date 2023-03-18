@@ -113,6 +113,7 @@ a {
     height: auto;
     width: 100%;
 }
+
 /* stylowanie sekcji statystyki */
 .stats__title {
     display: flex;
@@ -125,10 +126,12 @@ a {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 .stats__content {
     display: flex;
     justify-content: space-evenly;
 }
+
 .stats__box__title {
     text-align: center;
     font: normal normal 800 20px/24px var(--font-raleway);
@@ -141,6 +144,7 @@ a {
     padding-top: 14px;
     padding-bottom: 19px;
 }
+
 .stats__box__text {
     text-align: center;
     font: normal normal normal 16px/19px var(--font-raleway);
@@ -151,27 +155,46 @@ a {
     justify-content: center;
     align-items: flex-end;
 }
+
 .stats__img {
     position: absolute;
 }
+
 .stats__circle {
     height: 63px;
     width: 63px;
     border-radius: 50px;
-    background-color: var(--color-green);
     position: relative;
     display: flex;
     justify-content: center;
 }
+
 .stats__box:first-child .stats__circle {
     background-color: var(--color-redish);
-    /*left: 25px;*/
+    left: 21px;
 }
+
 .stats__box:first-child .stats__img {
     left: 45%;
     top: 0;
 }
+
 .stats__box:nth-child(2) .stats__circle {
     background-color: var(--color-primary);
-    /*left: 57px;*/
+    left: 28px;
+}
+
+.stats__box:nth-child(2) .stats__img {
+    top: 14px;
+    left: 30%;
+}
+
+.stats__box:last-child .stats__circle {
+    background-color: var(--color-green);
+    left: 15px;
+}
+
+.stats__box:last-child .stats__img {
+    top: 8px;
+    left: 45%;
 }
