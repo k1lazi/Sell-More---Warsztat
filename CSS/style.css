@@ -205,7 +205,8 @@ a {
 .benefits__background {
     margin: 0 auto;
     background-color: var(--color-light-grey);
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 105px;
 }
 
 .benefits__box {
@@ -237,11 +238,13 @@ a {
     background-color: #55DFB4;
     width: 548px;
 }
+
 .benefits__box__1 {
     display: flex;
     align-items: center;
     padding-left: 35px;
 }
+
 .benefits__title {
     text-align: left;
     font: normal normal normal 36px/42px var(--font-raleway);
@@ -250,6 +253,7 @@ a {
     opacity: 1;
     padding-bottom: 30px;
 }
+
 .benefits__text {
     text-align: left;
     font: normal normal normal 16px/22px var(--font-open-sans);
@@ -257,6 +261,7 @@ a {
     color: var(--color-black);
     opacity: 1;
 }
+
 .benefits__text::after {
     content: "";
     width: 332px;
@@ -265,6 +270,7 @@ a {
     display: block;
     margin-top: 50px;
 }
+
 .notebook__img {
     height: 219px;
     width: 386px;
@@ -275,6 +281,7 @@ a {
     position: relative;
 
 }
+
 .kwadrat {
     width: 180px;
     height: 180px;
@@ -293,6 +300,7 @@ a {
     flex-direction: row-reverse;
     justify-content: space-between;
 }
+
 .benefits__box__21 {
     display: flex;
     align-items: flex-start;
@@ -300,6 +308,7 @@ a {
     margin-bottom: 69px;
     margin-right: 30px;
 }
+
 .phone__img {
     width: 426px;
     height: 328px;
@@ -308,6 +317,7 @@ a {
     z-index: 1;
 
 }
+
 .kółko {
     width: 320px;
     height: 320px;
@@ -318,19 +328,137 @@ a {
     margin-top: -350px;
     margin-left: 70px;
 }
+
 .megafon {
     width: 296px;
     height: 208px;
     margin-top: 90px;
 }
+
 .benefits__container2__box2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .benefits__last__text {
     display: flex;
     flex-direction: column;
     padding-bottom: 70px;
     margin-left: 35px;
+}
+
+/* stylowanie sekcji pricing */
+.prices__title {
+    text-align: center;
+    font: normal normal normal 36px/42px var(--font-raleway);
+    letter-spacing: 0;
+    color: var(--color-black);
+    opacity: 1;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.prices__box__1,
+.prices__box__3 {
+    width: 372px;
+    height: 468px;
+    background: var(--color-white) 0 0 no-repeat padding-box;
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+    opacity: 1;
+    margin-top: 11px;
+}
+.prices__box__2 {
+    width: 405px;
+    height: 500px;
+    background: var(--color-white) 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 27px var(--color-primary-shadow);
+    border: 1px solid var(--color-primary);
+    border-radius: 18px;
+    opacity: 1;
+}
+.prices__box__3 {
+    border: 1px solid var(--color-green);
+}
+.prices__content {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.prices__box__title {
+    text-align: left;
+    font: normal normal bold 21px/1px var(--font-raleway);
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}
+.prices__box__price {
+    text-align: left;
+    font: normal normal 300 46px/2px var(--font-open-sans);
+    letter-spacing: 0;
+    color: #07ACE6;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 73px;
+}
+.price__1 {
+    color: var(--color-redish);
+    padding-bottom: 90px;
+}
+.price__3 {
+    color: var(--color-green);
+}
+.limited__ofer {
+    text-align: left;
+    font: normal normal bold 12px/1px var(--font-raleway);
+    letter-spacing: 0;
+    color: #13253B;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 61px;
+}
+.limited__ofer__3 {
+    padding-bottom: 50px;
+}
+.prices__package__contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.non__accept__icon {
+    list-style-image: url("/Zasoby_do_projektu/images/Close.svg");
+    padding-bottom: 25px;
+}
+.accept__icon {
+    list-style-image: url("/Zasoby_do_projektu/images/Zielona-fajka.svg");
+    padding-bottom: 25px;
+}
+.prices__box__button {
+    background: #07ACE6 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 23px;
+    opacity: 1;
+    color: var(--color-white);
+    padding: 16px 57px;
+    border: none;
+    margin-top: 55px;
+}
+.align__buttons__prices {
+    display: flex;
+    justify-content: center;
+}
+.prices__box__button__1 {
+    background-color: var(--color-redish);
+    margin-top: 35px;
+}
+.prices__box__button__3 {
+    background-color: var(--color-green);
+    margin-top: 35px;
 }
