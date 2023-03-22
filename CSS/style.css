@@ -266,7 +266,7 @@ a {
     content: "";
     width: 332px;
     height: 4px;
-    background-color: red;
+    background-color: var(--color-redish);
     display: block;
     margin-top: 50px;
 }
